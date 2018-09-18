@@ -131,7 +131,7 @@ arDdnsInfo() {
 
     # Output IP
     case "$recordIP" in 
-      [1-9][0-9]*)
+      [0-9]*)
         echo $recordIP
         return 0
         ;;
